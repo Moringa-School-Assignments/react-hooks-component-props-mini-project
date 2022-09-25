@@ -8,7 +8,7 @@ function ArticleList({posts}) {
             posts.map(post => {
                 console.log(post);
                 return (
-                    < Article key={post.id} title={post.title} date={post.title} preview={post.preview} />
+                    < Article key={post.id} title={post.title} date={post.date} preview={post.preview} minutes={post.minutes} />
                 )
             })
         }
